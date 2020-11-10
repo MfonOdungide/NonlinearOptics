@@ -121,7 +121,7 @@ def computeN():
 
     n1 = ((A0*(f+bruch*fo)+B0)**0.5) #swapped for testing complex conjugate
     n = (n1.real)
-    # Test Parameter
+    # Test Parameter must be commented out
     # print (f'lambda = {Lambda}, \nEg = {Eg},\nEg_eV = {Eg_eV},\nA0 = {A0},\nB0 = {B0},\nx = {x}, \nf = {f},\nfo = {fo}, \nE0 = {E0}, \nn1 = {n1}, \nbruch = {bruch}, \nchi = {chi}, \nn = {n}.')
     return Eg_eV, n, Lambda, Eg, x
     
